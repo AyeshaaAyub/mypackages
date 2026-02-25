@@ -10,9 +10,6 @@
 2. Create personal Access Token (PAT) on Github --give r-w accesss to 
 
 '''
-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
-'''
-
 3. Authenricate  GH container Registry (GHCR)
 
 '''
