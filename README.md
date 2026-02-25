@@ -5,7 +5,7 @@
 
  docker build -t hello .
  docker run hello
- docker tag hello ghcr.io/ayeshaaayub/hello:latest
+ docker tag hello ghcr.io/username/hello:latest
 
 2. Create personal Access Token (PAT) on Github --give r-w accesss to 
 
@@ -18,7 +18,7 @@ echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin
 '''
 then
 
-docker push ghcr.io/ayeshaaayub/hello:latest
+docker push ghcr.io/username/hello:latest
 
 
 4. tag and push our image to GHCR
