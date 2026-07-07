@@ -9,4 +9,5 @@
 3. Authenricate  GH container Registry (GHCR)
 
 4. tag and push our image to GHCR
+
 # Use Github Actions to Publish a Docker image to Github Packages (GHCR)
